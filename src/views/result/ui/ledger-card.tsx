@@ -187,7 +187,7 @@ export function LedgerCard({
   className,
 }: LedgerCardProps) {
   return (
-    <div className={cn(styles.scene, className)}>
+    <div className={cn(styles.scene, styles.labelColor[variant], className)}>
       <div
         className={cn(
           styles.card3d,
